@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: PumpImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5642387611323663818
+  m_GuidHigh: 16131407319442984894
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5184143021271179864
+      m_GuidHigh: 14162391696106840198
+    m_SerializedTextureGuid:
+      m_GuidLow: 3757178376710549922
+      m_GuidHigh: 5822537882697612043
+    m_Size: {x: 0.21, y: 0.301}
+    m_SpecifySize: 1
+    m_Name: pump-technical-data
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4637736243283246706
+      m_GuidHigh: 12531755322214288041
+    m_SerializedTextureGuid:
+      m_GuidLow: 5653313296116891978
+      m_GuidHigh: 18341611808206367384
+    m_Size: {x: 0.21, y: 0.21}
+    m_SpecifySize: 1
+    m_Name: marker
+    m_Texture: {fileID: 0}

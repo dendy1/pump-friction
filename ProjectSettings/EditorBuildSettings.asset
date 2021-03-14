@@ -4,5 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Pump.unity
+    guid: 51675745b89c79c4ab5d6968e3e1507d
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f0be61ebad480d649a742a7b37ca8623,
+      type: 2}
