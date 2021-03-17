@@ -35,3 +35,13 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: marker
     m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5363161096851070291
+      m_GuidHigh: 8418531614100775071
+    m_SerializedTextureGuid:
+      m_GuidLow: 11728749233247298876
+      m_GuidHigh: 14634502495164184457
+    m_Size: {x: 0.15023439, y: 0.3}
+    m_SpecifySize: 1
+    m_Name: sucrotwist
+    m_Texture: {fileID: 0}
