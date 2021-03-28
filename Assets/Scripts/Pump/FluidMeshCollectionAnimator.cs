@@ -27,7 +27,7 @@ public class FluidMeshCollectionAnimator : MonoBehaviour
             _meshHolder.GetComponent<MeshFilter>().mesh = meshesData[i].GetComponent<MeshFilter>().sharedMesh;
             yield return new WaitForSeconds(1f / 24);
         }
-
+        infoGraphic.SetActive((false));
         _turbine.GetComponent<MeshRenderer>().material = _defaultMaterial;
         _meshHolder.GetComponent<MeshFilter>().mesh = null;
         _routineIsRunning = false;  
