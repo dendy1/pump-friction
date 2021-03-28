@@ -4,6 +4,8 @@ public class PumpController : MonoBehaviour
     [SerializeField] private string pumpTag = "Player";
     
     private GameObject _pumpObject;
+
+    private GameObject _infoGraphicObject;
     private Animator _pumpAnimator;
     private ObjectDisabler _pumpObjectDisabler;
     private FluidMeshCollectionAnimator _pumpFluidAnimator;

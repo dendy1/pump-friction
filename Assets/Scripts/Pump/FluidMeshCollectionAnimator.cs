@@ -10,6 +10,7 @@ public class FluidMeshCollectionAnimator : MonoBehaviour
     [SerializeField] Material _fluidMaterial;
     [SerializeField] Material _transparentMaterial;
     [SerializeField] GameObject _turbine;
+    [SerializeField] private GameObject infoGraphic;
     
     private Material _defaultMaterial;
     private Queue<GameObject> _meshes;
@@ -41,6 +42,7 @@ public class FluidMeshCollectionAnimator : MonoBehaviour
     public void StartWaterAnimation()
     {
         _routineIsRunning = !_routineIsRunning;
+        infoGraphic.SetActive(true);
         if (_routineIsRunning) StartCoroutine(AnimationPlayer());
         else StopCoroutine(AnimationPlayer());
     }
@@ -48,7 +50,7 @@ public class FluidMeshCollectionAnimator : MonoBehaviour
     public void StopWaterAnimation()
     {
         StopAllCoroutines();
-        
+        infoGraphic.SetActive(false);
         _turbine.GetComponent<MeshRenderer>().material = _defaultMaterial;
         _meshHolder.GetComponent<MeshFilter>().mesh = null;
         _routineIsRunning = false;  
