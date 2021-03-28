@@ -77,4 +77,4 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MainColor: {r: 0, g: 0.55946016, b: 1, a: 0}
-    - _PivotVectorForTransparency: {r: 0, g: 0.15, b: 0.29560003, a: 0}
+    - _PivotVectorForTransparency: {r: -0.15736347, g: 0.4119099, b: -1.3995659, a: 0}

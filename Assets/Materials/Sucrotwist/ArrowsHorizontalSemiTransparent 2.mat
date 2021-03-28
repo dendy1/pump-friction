@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ArrowsVerticalSemiTransparent
+  m_Name: ArrowsHorizontalSemiTransparent 2
   m_Shader: {fileID: 4800000, guid: e834f73b3ad7c1e41b768da8f5c1c4eb, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -57,7 +57,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
-    - _CullOffIntensity: 100000000
+    - _CullOffIntensity: 5e+9
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
@@ -76,5 +76,5 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MainColor: {r: 0, g: 0.90713024, b: 1, a: 0}
-    - _PivotVectorForTransparency: {r: -0.13344347, g: 0.21404988, b: -1.443166, a: 0}
+    - _MainColor: {r: 1, g: 0.43529415, b: 0, a: 1}
+    - _PivotVectorForTransparency: {r: -0.15736347, g: 0.4119099, b: -1.3995659, a: 0}
