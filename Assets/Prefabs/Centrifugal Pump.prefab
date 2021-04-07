@@ -8392,6 +8392,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: InfoGraphicObjects
       objectReference: {fileID: 0}
+    - target: {fileID: 7086744496821270327, guid: c8e46c6a380b5ec408e1ddf082f88cc7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8e46c6a380b5ec408e1ddf082f88cc7, type: 3}
 --- !u!4 &6486341028002712416 stripped
